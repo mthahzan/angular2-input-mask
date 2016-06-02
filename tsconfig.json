@@ -19,6 +19,7 @@
   "files": [
     "index.ts",
     "masks/currency-mask.ts",
+    "typings/globals/es6-shim/index.d.ts",
     "typings/globals/node/index.d.ts",
     "typings/index.d.ts",
     "typings/modules/lodash/index.d.ts"

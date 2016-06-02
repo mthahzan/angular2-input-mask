@@ -1,1 +1,1 @@
-export * from './masks/currency-mask';
+export * from './src/currency-mask';
