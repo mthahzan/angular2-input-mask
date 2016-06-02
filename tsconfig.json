@@ -3,11 +3,14 @@
     "target": "es5",
     "module": "commonjs",
     "moduleResolution": "node",
-    "sourceMap": true,
+    "sourceMap": false,
+    "declaration": true,
+    "removeComments": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "removeComments": false,
-    "noImplicitAny": false
+    "noImplicitAny": true,
+    "listFiles": false,
+    "noLib": false
   },
   "filesGlob": [
     "**/*.ts",
