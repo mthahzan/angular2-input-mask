@@ -1,1 +1,1 @@
-export * from './src/currency-mask';
+export {CurrencyMaskDirective} from './src/currency-mask';
