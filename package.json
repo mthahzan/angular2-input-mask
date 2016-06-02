@@ -2,9 +2,10 @@
   "name": "angular2-input-mask",
   "version": "0.0.1",
   "description": "This is a set of input mask directives for Angular 2",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "test": "test"
+    "postinstall": "typings install",
+    "prepublish": "tsc"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,16 @@
   "bugs": {
     "url": "https://github.com/mthahzan/angular2-input-mask/issues"
   },
-  "homepage": "https://github.com/mthahzan/angular2-input-mask#readme"
+  "homepage": "https://github.com/mthahzan/angular2-input-mask#readme",
+  "dependencies": {
+    "@angular/common": "^2.0.0-rc.1",
+    "@angular/core": "^2.0.0-rc.1",
+    "es6-shims": "^1.1.0",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0beta.6",
+    "zone.js": "0.6.12"
+  },
+  "devDependencies": {
+    "typescript": "^1.8.10"
+  }
 }
