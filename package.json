@@ -1,0 +1,23 @@
+{
+  "name": "angular2-input-mask",
+  "version": "0.0.1",
+  "description": "This is a set of input mask directives for Angular 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mthahzan/angular2-input-mask.git"
+  },
+  "keywords": [
+    "angular2",
+    "input-mask"
+  ],
+  "author": "mthahzan <mthahzan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mthahzan/angular2-input-mask/issues"
+  },
+  "homepage": "https://github.com/mthahzan/angular2-input-mask#readme"
+}
